@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 20160211110624) do
     t.string "answer_3"
     t.string "answer_4"
     t.string "correct_answer"
-    t.string "mode_id"
+    t.string "difficulty_id"
     t.string "question_id"
   end
 

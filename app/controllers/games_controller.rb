@@ -6,6 +6,9 @@ class GamesController < ApplicationController
   		:Difficulty => "easy",
   		:category_type => "History"})
   end
+  def create
+
+  end
 
   def index
   end
