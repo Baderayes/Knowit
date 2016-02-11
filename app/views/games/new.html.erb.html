@@ -1,0 +1,15 @@
+<h1>Games#new</h1>
+<p>Find me in app/views/games/new.html.erb</p>
+<%= form_for(:game, :url => {:action => 'create'}) do |f| %>
+<div>
+<p>player_number = <%= f.text_field(:players_number) %></p>
+<p>Mode = <%= f.text_field(:mode) %></p>
+<p>Difficulty = <%= f.text_field(:Difficulty) %></p>
+<p>category_type = <%= f.text_field(:category_type) %></p>
+<p>time_for_each_question = <%= f.text_field(:time_for_each_question) %></p>
+</div>
+<div class="form-buttons">
+	<%= submit_tag("Play") %>
+	</div>
+	<% end %>
+

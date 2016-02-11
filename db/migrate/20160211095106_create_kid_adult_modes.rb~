@@ -1,0 +1,19 @@
+class CreateKidAdultModes < ActiveRecord::Migration
+  def change
+    create_table :kid_adult_modes do |t|
+
+      t.timestamps
+    end
+  end
+
+def up
+    create_table :kid_adult_modes do |t|
+    	t.string "mode_type"
+    end
+  end
+
+def down
+	drop_table :modes
+end
+
+end
